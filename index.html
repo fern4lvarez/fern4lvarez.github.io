@@ -9,30 +9,53 @@
   <link rel="stylesheet" href="resume.css" type="text/css" />
 </head>
 <body>
-<div id='container'><div id='contact'><p>
+<div id='container'>
+<div id="contact">
+<p>
 <img src='http://www.gravatar.com/avatar/3785d91a5127c8fb9e82ced1d6810745?s=200' />
-</p><p>
+</p>
+<p>
 Software Engineer
-</p><p></p><p>
+</p>
+<p>
+</p>
+<p>
 <script type="text/javascript">
 <!--
 h='&#102;&#x65;&#114;&#46;&#x61;&#x63;';a='&#64;';n='&#x69;&#110;&#102;&#x6f;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
 // -->
 </script><noscript>&#x69;&#110;&#102;&#x6f;&#32;&#x61;&#116;&#32;&#102;&#x65;&#114;&#32;&#100;&#x6f;&#116;&#32;&#x61;&#x63;</noscript>
-</p><p>
+</p>
+<p>
 +34600601373
-</p></div>
+</p>
+</div>
 <div>
 <h1 id="fernando-álvarez">Fernando Álvarez</h1>
 <h2 id="abstract">Abstract</h2>
 <ul>
-<li>I'm a master degree IT professional mainly focused on software engineering with a deep background in backend systems, operations and automation. I enjoy clean, documented and tested code, and keep reading and learning about new technologies. I'm passionate about what I do and can work readily either alone or within a team. I don't fear of talking in public or taking responsibilities, as I consider myself to have good leadership skills. I'm also able to provide advance technical support and mentorship.</li>
+<li>I'm a master degree IT professional mainly focused on software engineering with a deep background in backend systems, operations and automation, being interested also in distributed systems, scalable databases and open source software. I enjoy clean, documented and tested code, and keep reading and learning about new technologies. I'm passionate about what I do and can work readily either alone or within a team, having wide experience working remotely within a distributed team. I don't fear of talking in public or taking responsibilities, as I consider myself to have good leadership skills. I'm also able to provide advanced technical support and mentorship.</li>
 </ul>
 <h2 id="work-experience">Work Experience</h2>
 <ul>
-<li><p><strong>BeBanjo S.L.</strong> (Madrid, Spain)</p>
-<p>Systems Engineer, Oct 2015 - Present</p></li>
+<li><p><strong>BeBanjo S.L.</strong> (Madrid, Spain — Remote)</p>
+<p>Infrastructure Engineer, Oct 2015 - Apr 2017</p>
+<p>Infrastructure Lead, May 2017 - Present</p>
+<ul>
+<li>Lead Infrastructure team, manage weekly work, plan roadmap and set a mid- and long-term vision</li>
+<li>Provision a multi-environment, AWS-based, reproducible infrastructure and applications configuration with Chef and Terraform</li>
+<li>Administration and provisioning of application databases based on MySQL in AWS RDS</li>
+<li>Top to bottom administration of in-house Elasticsearch clusters, plus implementation of internal tooling written in Go</li>
+<li>Management and scaling of background processing mechanism based on Sidekiq and Redis</li>
+<li>Set full monitoring and layered alerting policy using StatsD, Librato, Slack, PagerDuty, and internal tooling</li>
+<li>Introduce full logging and time-series stack using syslog-ng + Redis + ELK</li>
+<li>Implement from scratch new CI system based on Buildkite, Kubernetes and Docker, hosted in Google Cloud</li>
+<li>Provision load balancing with failover using HAProxy and EC2 Autoscaling groups</li>
+<li>Plan next-gen internal monitoring system using Prometheus and Graphana</li>
+<li>Join a regular on-call and support rotation</li>
+<li>Take active part of internal hiring processes</li>
+</ul></li>
 <li><p><strong>Locafox GmbH</strong> (Berlin, Germany)</p>
 <p>Software Engineer, May 2015 - Oct 2015</p>
 <ul>
@@ -86,43 +109,41 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <ul>
 <li><p><strong>Programming languages</strong>:</p>
 <ul>
-<li>Advanced level: Go, Python, Bash</li>
-<li>Intemediate level: Ruby, Java, PHP, JavaScript, C</li>
+<li>Advanced level: Go, Ruby, Python, Bash</li>
+<li>Intemediate level: Java, PHP, JavaScript, C</li>
 <li>Amateur level: C++, Haskell, Scala, Erlang</li>
 </ul></li>
 <li><p><strong>Git</strong></p></li>
-<li><p><strong>Operating Systems</strong>: Unix systems, Ubuntu, Debian</p></li>
-<li><p><strong>Databases</strong>: *SQL, Elastic Search, MongoDB, Redis, Memcached</p></li>
+<li><p><strong>Operating Systems</strong>: Unix systems, Ubuntu, Debian, Docker environments</p></li>
+<li><p><strong>Databases</strong>: *SQL, AWS RDS, Elasticsearch, MongoDB, Redis, Memcached</p></li>
 <li><p><strong>Infrastructure</strong>:</p>
 <ul>
-<li>Amazon AWS: EC2, Route53, S3, RDS, CloudWatch, SQS</li>
-<li>Google Cloud Engine: Cloud, Storage, SQL</li>
+<li>Amazon AWS: EC2, Route53, S3, RDS, CloudWatch, SNS/SQS</li>
+<li>Google Cloud Engine: Cloud, Kubernetes, Docker Registry, Storage, SQL</li>
 </ul></li>
-<li><p><strong>Continuous Integration/Deployment</strong>: Jenkins, TravisCI, drone.io, Coveralls</p></li>
-<li><p><strong>HTTP</strong>: nginx, nginx-lua, Varnish, Pound, Hipache, WebSocket, SSL/TLS</p></li>
-<li><p><strong>Ops</strong>: LXC, Docker, Supervisord, Chef, Hubot, ssh, scp, DNS, Unix, Vagrant, cron, OpenVPN</p></li>
-<li><p><strong>Monitoring</strong>: Pingdom, New Relic, Serverdensity, Logentries, PagerDuty</p></li>
+<li><p><strong>Continuous Integration/Deployment</strong>: Jenkins, TravisCI, Buildkite, drone.io, Coveralls</p></li>
+<li><p><strong>HTTP</strong>: HAProxy, Apache2, Phusion Passenger, nginx, nginx-lua, Varnish, Pound, Hipache, WebSocket, SSL/TLS</p></li>
+<li><p><strong>Ops</strong>: Docker, Kubernetes, LXC, SystemD, Supervisord, Chef, Terraform, Hubot, ssh, scp, DNS, Vagrant, cron, OpenVPN</p></li>
+<li><p><strong>Monitoring</strong>: ELK, Pingdom, StatsD, Librato, Prometheus, New Relic, Serverdensity, Logentries, PagerDuty</p></li>
 <li><p><strong>Documentation</strong>: Markdown, Google Docs</p></li>
 <li><p><strong>Software Engineering</strong>: Agile methodologies, TDD/BDD, Kanban, Scrum, Extreme Programming, Software Craftsmanship</p></li>
 </ul>
 <h2 id="open-source">Open Source</h2>
 <ul>
-<li><p><strong>oscillatingworks</strong>: bootstrapping an independent open source organization - <a href="http://oscillating.works">http://oscillating.works</a></p></li>
-<li><p><strong>cctrl</strong>: cloudControl command line utilities - <a href="https://github.com/cloudControl/cctrl/commits/master?author=fern4lvarez">https://github.com/cloudControl/cctrl/commits/master?author=fern4lvarez</a></p></li>
-<li><p><strong>gocclib</strong>: Go library for the cloudControl API - <a href="https://github.com/fern4lvarez/gocclib">https://github.com/fern4lvarez/gocclib</a></p></li>
-<li><p><strong>goduckgo</strong>: Go package for DuckDuckGo API - <a href="https://github.com/ajanicij/goduckgo">https://github.com/ajanicij/goduckgo</a></p></li>
-<li><p><strong>gs3pload</strong>: Upload files to multiple S3 or Google Storage buckets at once - <a href="https://github.com/fern4lvarez/gs3pload">https://github.com/fern4lvarez/gs3pload</a></p></li>
-<li><p><strong>documentation</strong>: cloudControl PaaS documentation in GFM - <a href="https://github.com/cloudControl/documentation/commits/master?author=fern4lvarez">https://github.com/cloudControl/documentation/commits/master?author=fern4lvarez</a></p></li>
+<li><p><strong>oscillatingworks</strong>: Personal, independent open source organization - <a href="https://www.oscillating.works" class="uri">https://www.oscillating.works</a></p></li>
+<li><p><strong>piladb</strong>: Lightweight RESTful database engine based on stack data structures. - <a href="https://www.piladb.org" class="uri">https://www.piladb.org</a></p></li>
+<li><p><strong>esnap</strong>: Opinionated tool to manage take and restore of Elasticsearch snapshots - <a href="https://github.com/bebanjo/esnap" class="uri">https://github.com/bebanjo/esnap</a></p></li>
+<li><p><strong>cctrl</strong>: cloudControl command line utilities - <a href="https://github.com/cloudControl/cctrl/commits/master?author=fern4lvarez" class="uri">https://github.com/cloudControl/cctrl/commits/master?author=fern4lvarez</a></p></li>
+<li><p><strong>gocclib</strong>: Go library for the cloudControl API - <a href="https://github.com/fern4lvarez/gocclib" class="uri">https://github.com/fern4lvarez/gocclib</a></p></li>
+<li><p><strong>goduckgo</strong>: Go package for DuckDuckGo API - <a href="https://github.com/ajanicij/goduckgo" class="uri">https://github.com/ajanicij/goduckgo</a></p></li>
+<li><p><strong>gs3pload</strong>: Upload files to multiple S3 or Google Storage buckets at once - <a href="https://github.com/fern4lvarez/gs3pload" class="uri">https://github.com/fern4lvarez/gs3pload</a></p></li>
+<li><p><strong>documentation</strong>: cloudControl PaaS documentation in GFM - <a href="https://github.com/cloudControl/documentation/commits/master?author=fern4lvarez" class="uri">https://github.com/cloudControl/documentation/commits/master?author=fern4lvarez</a></p></li>
 </ul>
 <h2 id="languages">Languages</h2>
 <ul>
 <li><strong>Spanish</strong>: Native language</li>
 <li><strong>English</strong>: Full professional proficency</li>
 <li><strong>German</strong>: Intermediate proficency</li>
-</ul>
-<h2 id="miscellaneous">Miscellaneous</h2>
-<ul>
-<li><a href="http://www.fer.ac">http://www.fer.ac</a></li>
 </ul>
 </div>
 </body>
