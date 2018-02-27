@@ -58,3 +58,9 @@ li {
 ul li ul li {
     margin: .5em;
 }
+
+footer {
+    font-size: x-small;
+    text-align: center;
+    padding-top: 5%;
+}
